@@ -1,0 +1,19 @@
+{
+  "name": "web_blogapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joii": "^4.1.1",
+    "mariadb": "^3.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
